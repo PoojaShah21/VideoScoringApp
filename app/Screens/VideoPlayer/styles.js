@@ -1,0 +1,115 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  videoContainer: {
+    flex: 0.6,
+  },
+  videoWrapper: {
+    borderWidth: 3,
+    borderColor: '#87A5A5',
+    borderRadius: 10,
+    overflow: 'hidden',
+  },
+  video: {
+    width: 300,
+    height: 180,
+  },
+  playIconContainer: {
+    position: 'absolute',
+    top: '40%',
+    left: '40%',
+    backgroundColor: '#00000080',
+    height: 40,
+    width: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 20,
+  },
+  scoreContainer: {
+    flexDirection: 'row',
+  },
+  scoreText: {
+    marginTop: 10,
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: 'gray',
+  },
+  scoringContainer: {
+    width: 300,
+    height: 180,
+    backgroundColor: '#A5C3C3',
+    marginTop: 70,
+    borderRadius: 10,
+    position: 'relative',
+    borderColor: '#004d40',
+    borderWidth: 1,
+  },
+  happyIcon: {
+    position: 'absolute',
+    left: '42%',
+    top: -25,
+    width: 45,
+    height: 45,
+  },
+  likeIcon: {
+    position: 'absolute',
+    right: -25,
+    top: '40%',
+    width: 45,
+    height: 45,
+  },
+  unhappyIcon: {
+    position: 'absolute',
+    left: '42%',
+    bottom: -25,
+    width: 45,
+    height: 45,
+  },
+  dislikeIcon: {
+    position: 'absolute',
+    left: -25,
+    top: '40%',
+    width: 45,
+    height: 45,
+  },
+  indicator: {
+    position: 'absolute',
+    backgroundColor: '#004d40',
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+  },
+  controlsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 70,
+    alignItems: 'center',
+  },
+  controlButton: {
+    marginHorizontal: 20,
+    borderColor: '#A5C8C8',
+    borderWidth: 2,
+    height: 30,
+    width: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 15,
+  },
+  controlButton1: {
+    marginHorizontal: 20,
+    backgroundColor: '#A5C8C8',
+    height: 50,
+    width: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 25,
+  },
+});
+
+export default styles;
